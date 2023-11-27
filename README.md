@@ -38,19 +38,24 @@ Y= A⊕B
 Ex-NOR gate The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will give a low output if either, but not both of its two inputs are high. The symbol is an EX-OR gate with a small circle on the output. The small circle represents inversion.
 Y= A⊕B
 
-Procedure Connect the supply (+5V) to the circuit Switch ON the main switch Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed. If the output is 1, then the bulb glows. Check all the gates following the same procedure. 
+Procedure 
+Connect the supply (+5V) to the circuit Switch ON the main switch Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed. If the output is 1, then the bulb glows. Check all the gates following the same procedure. 
 Program: /* Program to verify the truth table in quartus for the basic logic gates using Verilog programming. Developed by: S.Jishnupriyan RegisterNumber: 23008936 module Logicgates(a,b,y1,y2,y3,y4,y5,y6,y7); input a,b; output y1,y2,y3,y4,y5,y6,y7; and(y1,a,b); or(y2,a,b); not(y3,a); xor(y4,a,b); nand(y5,a,b); nor(y6,a,b); xnor(y7,a,b); endmodule */
 
 TRUTH TABLE:
 
-WhatsApp Image 2023-11-27 at 16 21 44_595ad002
+![WhatsApp Image 2023-11-27 at 16 35 08_a81ebc98](https://github.com/Msuren48106/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/150503875/3e3fe486-2218-41cc-8d6c-802fdd4058a2)
+
 
 RTL realization:
 
-WhatsApp Image 2023-11-27 at 16 22 35_a2e84ffa
+![WhatsApp Image 2023-11-27 at 16 35 09_5115d668](https://github.com/Msuren48106/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/150503875/59f487a9-2a69-482e-b427-bc9185bc40b7)
+
 
 WAVE FORM:
 
-WhatsApp Image 2023-11-27 at 16 10 30_5ad82238
+![WhatsApp Image 2023-11-27 at 16 35 08_caa4c75b](https://github.com/Msuren48106/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/150503875/5133b664-05e0-437e-a79c-e5843e625507)
 
-Result: Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
+
+Result: 
+Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
