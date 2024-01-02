@@ -1,7 +1,7 @@
 Name:M.suren.
 
 Reference Number:23005055
-# Study of basic digital IC s and verification of truth tables for different logic gates realization
+# Experiment-1 Study of basic digital IC s and verification of truth tables for different logic gates realization
 
 ## AIM:
  
